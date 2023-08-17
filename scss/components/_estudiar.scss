@@ -1,0 +1,29 @@
+.estudiar {
+    .container-fluid {
+        background-image: url(/Multimedia/Images/seccionesbg/studyman.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        background-repeat: none;
+        object-fit: cover;
+        .row {
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            height: 800px;
+            .textoEstudiar{ 
+                a{
+                    h4 {
+                        color: white;
+                        font-family:'Raleway', sans-serif;
+                        font-size: 1.3rem;
+                        font-weight: 400;
+                        justify-content: center;
+                        text-align: center;
+                        align-items: center;
+
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+
+.actividades { 
+    height: 300px;
+    .container {
+        .row {
+            padding-top: 80px;
+            .col {
+                h6 {
+                    font-size: 2rem;
+                    text-align: left;
+                    font-weight:bolder;
+                    font-style: italic;
+
+                }
+                ul {
+                    li {
+                        font-size: 1.2rem;
+
+                    }
+                }
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.root {
+  font-size: 1.6rem;
+  list-style: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-decoration: none; 
+  background-color: whitesmoke;}
+
+li {
+  text-decoration: none;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+h2 {
+  font-size: 4rem;
+  font-style: italic;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+h4 {
+  font-size: 3rem; }
+
+/* header */
+.navbar .container .row {
+  display: flex;
+  height: 100px; }
+  .navbar .container .row .fila-iconos .navbar-brand {
+    display: flex;
+    justify-content: right; }
+    .navbar .container .row .fila-iconos .navbar-brand img {
+      width:100%}
+
+      .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+        color: rgb(52 52 52);
+    }
+    
+
+      
+  
+ 
+
+
+.banner .carouselContainer .carousel .carousel-inner .carousel-item {
+  height: 700px; }
+  .banner .carouselContainer .carousel .carousel-inner .carousel-item .img {
+    position: 0;
+    top: 0;
+    left: 0;
+    min-height: 800px; }
+  .banner .carouselContainer .carousel .carousel-inner .carousel-item .carousel-caption {
+    text-shadow: 2px 2px 15px black;
+    padding-bottom: 10%; }
+    .banner .carouselContainer .carousel .carousel-inner .carousel-item .carousel-caption .p {
+      font-size: 2rem;
+      font-family: 'Roboto Condensed', sans-serif; }
+    .banner .carouselContainer .carousel .carousel-inner .carousel-item .carousel-caption button {
+      min-width: 130px;
+      height: 40px;
+      color: #fff;
+      padding: 5px 10px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      display: inline-block;
+      outline: none;
+      border-radius: 5px;
+      border: 2px solid #ff0a78;
+      background: #ff0a78; }
+      .banner .carouselContainer .carousel .carousel-inner .carousel-item .carousel-caption button:hover {
+        background: #fff;
+        color: #ff0a78; }
+   
+
+.actividades {
+  height: 100vh;
+  padding-top: 200px;
+  align-items: center;
+  justify-content: center;}
+  .actividades .container .row {
+    justify-content: center;
+    align-items: center;}
+    .actividades .container .row .col h6 {
+      font-size: 2rem;
+      text-align: left;
+      font-weight: bolder;
+      font-style: italic; }
+      .actividades .container .row .col img {
+        width: 500px;
+        justify-content: center;
+        align-items: center;
+      }
+
+.oracion .container-fluid {
+  background-image: url(../Multimedia/Images/calteimg/img2.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: none;
+  object-fit: cover; }
+  .oracion .container-fluid .row {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 800px; }
+    .oracion .container-fluid .row .textoOrar a h4 {
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      font-size: 2 rem;
+      font-weight: 400;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      text-shadow: 3px 4px 10px black;}
+
+.estudiar .container-fluid {
+  background-image: url(../Multimedia/Images/seccionesbg/studyman.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: none;
+  object-fit: cover; }
+  .estudiar .container-fluid .row {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 800px; }
+    .estudiar .container-fluid .row .textoEstudiar a h4 {
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 400;
+      justify-content: center;
+      text-align: center;
+      align-items: center; }
+
+.agradecer .container-fluid {
+  background-image: url(../Multimedia/Images/calteimg/img6.jpeg);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: none;
+  object-fit: cover; }
+  .agradecer .container-fluid .row {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height:100vh; }
+    .agradecer .container-fluid .row .textoAgradecer a h4 {
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      font-size: 2rem;
+      font-weight: 400;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      text-shadow: 3px 4px 10px black; }
+
+.conection {
+  padding-bottom: 10%;
+  padding-top: 10%; 
+  height: 100vh;}
+  .conection .container .row .col .boxforms {
+    border-radius: 20px;
+    border-color: navy;
+    box-shadow: 4px 6px 30px gray;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+   }
+    
+        .img-conocenos{
+          width: 100px;
+        }
+
+.songs {
+  background-image: linear-gradient(to bottom, #000000, #141414, #212020, #2e2d2d, #3b3b3a);
+  padding-top: 10%;
+  padding-bottom: 10%; }
+  .songs .container .row {
+    padding-top: 2%; }
+    .songs .container .row .textosyt {
+      display: grid;
+      justify-content: center;
+      text-align: center;
+      color: whitesmoke;
+      font-size: 1.3rem;
+      font-style: italic; }
+    .songs .container .row .videoyt {
+      display: flex;
+      justify-content: center; }
+      .songs .container .row .videoyt iframe {
+        box-shadow: 2px 2px 30px black;
+        border-radius: 20px; }
+    .songs .container .row .buttvermasyt {
+      min-width: 130px;
+      height: 40px;
+      color: #fff;
+      padding: 5px 10px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      display: inline-block;
+      outline: none;
+      border-radius: 5px;
+      border: 2px solid #ff0a78;
+      background: #ff0a78; }
+      .songs .container .row .buttvermasyt:hover {
+        background: #fff;
+        color: #ff0a78; }
+
+.nosotros .container-fluid {
+  background-image: url(../Multimedia/Images/seccionesbg/nosotros.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: none;
+  object-fit: cover;}
+  .nosotros .container-fluid .row {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 800px; }
+    .nosotros .container-fluid .row .textoNosotros h6 {
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 400;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      text-shadow: 2px 2px 10px black; }
+
+.elFooter {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 0.9rem; }
+  .elFooter .container-fluid .row {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-top: 5px; }
+
+.songs {
+  background-image: linear-gradient(to bottom, #000000, #141414, #212020, #2e2d2d, #3b3b3a);
+  padding-top: 10%;
+  padding-bottom: 10%; }
+  .songs .container .row {
+    padding-top: 2%; }
+    .songs .container .row .textosyt {
+      display: grid;
+      justify-content: center;
+      text-align: center;
+      color: whitesmoke;
+      font-size: 1.3rem;
+      font-style: italic; }
+    .songs .container .row .videoyt {
+      display: flex;
+      justify-content: center; }
+      .songs .container .row .videoyt iframe {
+        box-shadow: 2px 2px 30px black;
+        border-radius: 20px; }
+    .songs .container .row .buttvermasyt {
+      min-width: 130px;
+      height: 40px;
+      color: #fff;
+      padding: 5px 10px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      display: inline-block;
+      outline: none;
+      border-radius: 5px;
+      border: 2px solid #ff0a78;
+      background: #ff0a78; }
+      .songs .container .row .buttvermasyt:hover {
+        background: #fff;
+        color: #ff0a78; }
+
+
+  

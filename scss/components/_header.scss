@@ -1,0 +1,41 @@
+/* header */
+.navbar{
+    .container{
+        .row{
+            display: flex;
+            .fila-iconos{
+                
+                .navbar-brand {
+                    display: flex;
+                    justify-content: right;
+                    img {
+                        width: 50%;
+                    }
+                }
+            }
+            .fila-links {
+                .redes {
+                    img {
+                        width: 15%;
+                        justify-content: center;
+                        padding-left: 2px;
+                        align-content: center;
+                    }
+                }
+            }
+            .fila-redes{
+                width: 4%;
+                .redes{
+                    display: flex;
+                    justify-content: space-around;
+                    width: fit-content;
+                    img{
+                        padding-left: 10px;
+                        width: 100%;
+                    }
+                }
+            }
+            
+        }
+    }
+}

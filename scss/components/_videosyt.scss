@@ -1,0 +1,50 @@
+.songs {
+    background-image: linear-gradient(to bottom, #000000, #141414, #212020, #2e2d2d, #3b3b3a);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    .container {
+        .row {
+            padding-top: 2%;
+            .textosyt {
+                display:grid;
+                justify-content: center;
+                text-align: center;
+                color: whitesmoke;
+                font-size: 1.3rem;
+                font-style: italic;
+
+            }
+            .videoyt {
+                display: flex;
+                justify-content: center;
+                iframe {
+                    box-shadow: 2px 2px 30px black;
+                    border-radius: 20px;
+
+                }
+            }
+            .buttvermasyt {
+                min-width: 130px;
+                height: 40px;
+                color: #fff;
+                padding: 5px 10px;
+                font-weight: bold;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                position: relative;
+                display: inline-block;
+                outline: none;
+                border-radius: 5px;
+                border: 2px solid #ff0a78;
+                background: #ff0a78;
+
+                &:hover {
+                    background: #fff;
+                    color: #ff0a78
+                }
+
+            }
+        }
+        
+    }
+}

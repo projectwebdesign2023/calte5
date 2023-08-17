@@ -1,0 +1,17 @@
+.elFooter {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 0.9rem;
+    .container-fluid {
+        .row {
+            display: flex;
+            height: auto;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            padding-bottom: 5px;
+            padding-top: 5px;
+           
+        }
+    }
+}
