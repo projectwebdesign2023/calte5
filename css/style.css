@@ -9,9 +9,9 @@
   text-decoration: none; 
   background-color: whitesmoke;}
 
-li {
+/* li {
   text-decoration: none;
-  list-style: none; }
+  list-style: none; } */
 
 a {
   text-decoration: none; }
@@ -32,7 +32,7 @@ h4 {
     display: flex;
     justify-content: right; }
     .navbar .container .row .fila-iconos .navbar-brand img {
-      width:100%}
+      width:40%;}
 
       .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
         color: rgb(52 52 52);
@@ -89,18 +89,18 @@ h4 {
         align-items: center;
       }
 
-.oracion .container-fluid {
-  background-image: url(../Multimedia/Images/calteimg/img2.jpg);
+.envejecer .container-fluid {
+  background-image: url(../Multimedia/Images/calteimg/person-helping-their-elder-neighbour.jpg);
   background-size: 100%;
   background-attachment: fixed;
   background-repeat: none;
   object-fit: cover; }
-  .oracion .container-fluid .row {
+  .envejecer .container-fluid .row {
     justify-content: center;
     align-items: center;
     align-content: center;
     height: 800px; }
-    .oracion .container-fluid .row .textoOrar a h4 {
+    .envejecer .container-fluid .row .textoOrar a h4 {
       color: white;
       font-family: 'Raleway', sans-serif;
       font-size: 2 rem;
@@ -168,42 +168,7 @@ h4 {
           width: 100px;
         }
 
-.songs {
-  background-image: linear-gradient(to bottom, #000000, #141414, #212020, #2e2d2d, #3b3b3a);
-  padding-top: 10%;
-  padding-bottom: 10%; }
-  .songs .container .row {
-    padding-top: 2%; }
-    .songs .container .row .textosyt {
-      display: grid;
-      justify-content: center;
-      text-align: center;
-      color: whitesmoke;
-      font-size: 1.3rem;
-      font-style: italic; }
-    .songs .container .row .videoyt {
-      display: flex;
-      justify-content: center; }
-      .songs .container .row .videoyt iframe {
-        box-shadow: 2px 2px 30px black;
-        border-radius: 20px; }
-    .songs .container .row .buttvermasyt {
-      min-width: 130px;
-      height: 40px;
-      color: #fff;
-      padding: 5px 10px;
-      font-weight: bold;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      position: relative;
-      display: inline-block;
-      outline: none;
-      border-radius: 5px;
-      border: 2px solid #ff0a78;
-      background: #ff0a78; }
-      .songs .container .row .buttvermasyt:hover {
-        background: #fff;
-        color: #ff0a78; }
+
 
 .nosotros .container-fluid {
   background-image: url(../Multimedia/Images/seccionesbg/nosotros.jpg);
@@ -239,42 +204,40 @@ h4 {
     padding-bottom: 5px;
     padding-top: 5px; }
 
-.songs {
-  background-image: linear-gradient(to bottom, #000000, #141414, #212020, #2e2d2d, #3b3b3a);
-  padding-top: 10%;
-  padding-bottom: 10%; }
-  .songs .container .row {
-    padding-top: 2%; }
-    .songs .container .row .textosyt {
-      display: grid;
-      justify-content: center;
-      text-align: center;
-      color: whitesmoke;
-      font-size: 1.3rem;
-      font-style: italic; }
-    .songs .container .row .videoyt {
-      display: flex;
-      justify-content: center; }
-      .songs .container .row .videoyt iframe {
-        box-shadow: 2px 2px 30px black;
-        border-radius: 20px; }
-    .songs .container .row .buttvermasyt {
-      min-width: 130px;
-      height: 40px;
-      color: #fff;
-      padding: 5px 10px;
-      font-weight: bold;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      position: relative;
-      display: inline-block;
-      outline: none;
-      border-radius: 5px;
-      border: 2px solid #ff0a78;
-      background: #ff0a78; }
-      .songs .container .row .buttvermasyt:hover {
-        background: #fff;
-        color: #ff0a78; }
 
+.seccion-funciones-cuidadores{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  }
+  .contenedor-imagen{
+    width: 30%;
+  }
+  .contenedor-imagen img{
+    width:100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .card{
+    border-radius: 3%;
+    box-shadow: 4px 6px 30px gray;
+    border-radius: 20px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card ul{
+    padding-top: 10%;
+  }
+  .card .titulo-card{
+    padding-top: 10%;
+  }
 
   
