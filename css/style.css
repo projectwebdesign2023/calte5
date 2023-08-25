@@ -24,11 +24,18 @@ h2 {
 h4 {
   font-size: 3rem; }
 
-/* header */
+header */
 .container-navbar{
   display: grid;
+  grid-row: 1;
   height: 100%;
   width: 100%;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+  display: grid;
+  justify-content: space-around;
+  align-content: center;
 }
   .navbar .container .row .fila-iconos .navbar-brand {
     display: grid;
@@ -162,7 +169,7 @@ h4 {
       text-shadow: 3px 4px 10px black; }
 
 .conection {
-  padding-bottom: 50%;
+  padding-bottom: 10%;
   padding-top: 10%; 
   height: 100vh;
   align-items: center;
@@ -247,11 +254,41 @@ h4 {
     justify-content: center;
   }
   
-  .card ul{
-  }
+
   .card .titulo-card{
     align-items: center;
     justify-content: center;
   }
 
+  .section-staff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: whitesmoke;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/Multimedia/Images/calteimg/nurse-older-man-fist-bumping.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: none;
+    object-fit: cover;
+  }
   
+  .contenedor-staff{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .recuadro-staff{
+    width: 800px;
+    height: 400px;
+    background-color: black;
+    position: absolute;
+    opacity: 50%;
+    z-index: 0;
+  }
+ 
