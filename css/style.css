@@ -25,14 +25,24 @@ h4 {
   font-size: 3rem; }
 
 /* header */
-.navbar .container .row {
-  display: flex;
-  height: 100px; }
+.container-navbar{
+  display: grid;
+  height: 100%;
+  width: 100%;
+}
   .navbar .container .row .fila-iconos .navbar-brand {
-    display: flex;
-    justify-content: right; }
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
     .navbar .container .row .fila-iconos .navbar-brand img {
-      width:40%;}
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 50%;       
+     }
 
       .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
         color: rgb(52 52 52);
@@ -214,32 +224,34 @@ h4 {
   align-items: center;
   justify-content: center;
   }
-  .contenedor-imagen{
-    width: 30%;
-  }
-  .contenedor-imagen img{
-    width:100%;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-  }
+
   .card{
+    display: grid;
+    grid-template-rows: 150px 4em 240px;
+    align-items: self-start;
+    justify-content: center;
+    justify-items: center;
     border-radius: 3%;
     box-shadow: 4px 6px 30px gray;
     border-radius: 20px;
-    padding-top: 10%;
-    padding-bottom: 10%;
+
+    }
+  .contenedor-imagen{
+    width:100%;
+    height: 100%;
+  }
+  .contenedor-imagen img{
     width: 100%;
     height: 100%;
-    display: flex;
     align-items: center;
     justify-content: center;
   }
+  
   .card ul{
-    padding-top: 10%;
   }
   .card .titulo-card{
-    padding-top: 10%;
+    align-items: center;
+    justify-content: center;
   }
 
   
