@@ -20,6 +20,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="/css/style.css">
     <title>CALTE</title>
+
+     <!-- AOS FX -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -102,7 +105,9 @@
          <!-- SECCION ACTIVIDADES -->
          <section class="actividades" id="servicios">
           <div class="container d-flex justify-content-center align-items-center">
-            <div class="row">
+            <div class="row" 
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom" data-aos-duration="200">
               <div class="col">
                 <img src="./Multimedia/Images/calteimg/img1.jpg"/>
               </div>
@@ -123,7 +128,8 @@
           <div class="container-fluid">
             <div class="row">
               <div class="textoOrar">
-                <a href="#forms1"><h4>Envejecer con dignidad, cuidar con Amor.</h4></a>
+                <a href="#forms1" data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-duration="400"><h4>Envejecer con dignidad, cuidar con Amor.</h4></a>
               </div>
             </div>
           </div>
@@ -135,20 +141,26 @@
           <div class="container">
             <div class="row g-3">
               <div class="col col-lg-6 col-md-6 col-sm-12">
-                <div class="envejecer boxforms">
+                <div class="envejecer boxforms" 
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-duration="300">
                   <img class="img-conocenos" src="./Multimedia/Images/calteimg/calendar.png"/>
                   <h3>Módulos</h3>
                   <p>Lunes a Lunes | Lunes a Viernes<br>Dias Festivos | Fines de semana</p>
                 </div>
               </div>
               <div class="col col-lg-6 col-md-6 col-sm-12">
-                <div class="pedidoOracion boxforms">
+                <div class="pedidoOracion boxforms"
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-duration="400">
                   <img class="img-conocenos" src="./Multimedia/Images/calteimg/24.png"/>
                   <h3>Carga horaria</h3>
                   <p>24 horas | 12 horas <br> 8 horas | 6 horas</p>
                 </div>
               </div>
-              <div class="col col-lg-6 col-md-6 col-sm-12">
+              <div class="col col-lg-6 col-md-6 col-sm-12"
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-duration="500">
                 <div class="pedidoOracion boxforms">
                   <img class="img-conocenos" src="./Multimedia/Images/calteimg/quality.png"/>
                   <h3>Garantía calidad</h3>
@@ -156,7 +168,9 @@
                 </div>
               </div>
               <div class="col col-lg-6 col-md-6 col-sm-12">
-                <div class="discipulado boxforms">
+                <div class="discipulado boxforms"
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-duration="600">
                   <img   class="img-conocenos" src="./Multimedia/Images/calteimg/protection.png"/>
                   <h3>Cuidados</h3>
                   <p>Domiciliarios | Internacion <br>Paliativos | Hospitalarios</p>
@@ -172,7 +186,9 @@
           <div class="container-fluid">
             <div class="row">
               <div class="textoAgradecer">
-                <a href="#forms1"><h4>Tu confianza, nuestro compromiso: <br/>respeto, claridad y puntualidad en cada cuidado..</h4></a>
+                <a href="#forms1" 
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-duration="400"><h4>Tu confianza, nuestro compromiso: <br/>respeto, claridad y puntualidad en cada cuidado..</h4></a>
               </div>
             </div>
           </div>
@@ -183,7 +199,9 @@
           <div class="container">
             <div class="row">
               <div class="col-4">
-                <div class="card">
+                <div class="card"
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-duration="500">
                   <div class="contenedor-imagen">
                     <img src="./Multimedia/Images/calteimg/brain-idea-mind-svgrepo-com.svg"/>
                   </div>
@@ -202,7 +220,9 @@
                 </div>
               </div>
               <div class="col-4">
-                <div class="card">
+                <div class="card"
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-duration="800">
                   <div class="contenedor-imagen">
                     <img src="./Multimedia/Images/calteimg/clean-cleaning-covid-gel-hand-health-svgrepo-com.svg"/>
                   </div>
@@ -219,7 +239,9 @@
                 </div>
               </div>
               <div class="col-4">
-                <div class="card">
+                <div class="card"
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
                   <div class="contenedor-imagen">
                     <img src="./Multimedia/Images/calteimg/do-done-list-svgrepo-com.svg"/>
                   </div>
@@ -249,6 +271,15 @@
           </div>
         </section>
 
+           <!-- Sticky Whatsapp -->
+           <div class="contenedorWhatsapp">
+            <a href="webwhatsapp" target="blank_"><img src="/Multimedia/Images/calteimg/whatsappIcon.png"
+                    alt="iconoWhatsappGolden" data-aos="fade-down" data-aos-offset="500" data-aos-duration="500">
+            </a>
+        </div>
+
+
+
 
     </main>
 
@@ -259,6 +290,12 @@
         </div>
       </div>
     </footer>
+
+    <!-- script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
