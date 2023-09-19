@@ -11,9 +11,12 @@
 }
 
 
+
 a {
   text-decoration: none;
+ 
 }
+
 
 h2 {
   font-size: 4rem;
@@ -48,6 +51,12 @@ html {
   align-content: center;
 }
 
+.btn-warning:hover{
+  transform: scale(1.10);
+  transition: 200ms;
+  
+}
+
 .navbar .container .row .fila-iconos .navbar-brand {
   display: grid;
   justify-content: space-between;
@@ -61,7 +70,18 @@ html {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 12dvh;
+  
+}
+.navbar-brand:hover{
+  transform: scale(1.10);
+  transition-duration: 1s;
+  
+}
+
+.iconos-redes-foot a:hover{
+  transform: scale(1.10);
+  transition: 200ms;
 }
 
 .navbar-light .navbar-nav .nav-link.active,
@@ -69,7 +89,11 @@ html {
   color: rgb(52 52 52);
 }
 
-
+.nav-item:hover{
+  transform: scale(1.10);
+  transition: 150ms;
+  
+}
 
 .actividades {
   display: flex;
@@ -225,19 +249,20 @@ html {
 
 .elFooter {
   color: whitesmoke;
-  text-align: center;
+  text-align: left;
   font-size: 0.9rem;
 }
 
 .elFooter .container-fluid .row {
-  display: flex;
-  height: auto;
+  display: grid;
+  height: 10dvh;
   justify-content: center;
   justify-items: center;
-  align-items: center;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  align-items: end;
+  text-align: left;
 }
+
+
 
 
 .seccion-funciones-cuidadores {
