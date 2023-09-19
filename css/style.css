@@ -69,69 +69,31 @@ html {
   color: rgb(52 52 52);
 }
 
-.banner .carouselContainer .carousel .carousel-inner .carousel-item {
-  height: 800px;
-}
-
-.banner .carouselContainer .carousel .carousel-inner .carousel-item .img {
-  position: 0;
-  top: 0;
-  left: 0;
-  min-height: 750px;
-}
-
-.banner .carouselContainer .carousel .carousel-inner .carousel-item .carousel-caption {
-  text-shadow: 2px 2px 15px black;
-  padding-bottom: 10%;
-}
-
-.pcarousel {
-  font-size: 25px;
-}
-
-.banner .carouselContainer .carousel .carousel-inner .carousel-item .carousel-caption button {
-  min-width: 130px;
-  height: 40px;
-  color: #fff;
-  padding: 5px 10px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  outline: none;
-  border-radius: 5px;
-  border: 2px solid #ff0a78;
-  background: #ff0a78;
-}
-
-.banner .carouselContainer .carousel .carousel-inner .carousel-item .carousel-caption button:hover {
-  background: #fff;
-  color: #ff0a78;
-}
 
 
 .actividades {
-  display: grid;
+  display: flex;
   height: 100vh;
   align-items: center;
   justify-content: center;
 }
 
-.actividades .container .row {
+.actividades .container {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-.actividades .container .row .col h6 {
+.actividades .container .col h6 {
   font-size: 2rem;
   text-align: left;
   font-weight: bolder;
   font-style: italic;
 }
 
-.actividades .container .row .col img {
-  width: 500px;
+.actividades .container .col img {
+  width: 90%;
   justify-content: center;
   align-items: center;
 }
@@ -214,8 +176,7 @@ html {
 }
 
 .conection {
-  padding-bottom: 10%;
-  padding-top: 10%;
+  display: flex;
   height: 100vh;
   align-items: center;
   justify-content: center;
@@ -375,10 +336,10 @@ html {
 }
 
 .recuadro-banner {
-  width: 800px;
+  width: 100%;
   height: 400px;
-  background-color: black;
   position: absolute;
+  background-color: black;
   opacity: 50%;
   z-index: 0;
   
@@ -396,14 +357,49 @@ html {
   filter: drop-shadow(0px 0px 4px #7a7a7a);
 }
 
+.iconos-redes-foot{
+  display: flex;
+}
 
+.contenedor-iconos-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self:center;
+}
+.iconos-redes-foot{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 5%;
+}
+.email-telefono-foot{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: start;
+    text-decoration: none;
+    list-style: none;
+    
+}
 
+.email-telefono-foot .ul{
+  display: flex;
+  align-items: center;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (max-width: 600px) {
+  .navbar .container .row .fila-iconos .navbar-brand img {
+    display: none;
+  }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 992px) {
@@ -424,7 +420,7 @@ html {
     height: 60vh;
     background-repeat: no-repeat;
     background-image: url('/Multimedia/Images/calteimg/doctor.jpeg');
-    background-size: 100%;
+    background-size:cover;
   
   }
   
@@ -440,7 +436,7 @@ html {
   
   .recuadro-banner {
     width: 100%;
-    height:60%;
+    height: 60vh;
     background-color: black;
     position: absolute;
     opacity: 50%;
@@ -473,10 +469,54 @@ html {
     align-items: center;
     justify-content: center;
   }
+  .conection .container .row{
+    display: block;
+  }
+
+  .actividades .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.actividades .container .col img {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.envejecer .container-fluid {
+  background-size: 150dvh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.agradecer .container-fluid {
+  background-size: 150dvh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.recuadro-staff {
+  width: 100%;
+  height: 100%;
+}
+
+.section-staff {
   
+  background-size:150dvh;
 
+}
+.seccion-funciones-cuidadores .container .row{
+  display: block;
+}
 
-
+.seccion-funciones-cuidadores{
+  height: 200vh;
+}
 
 }
 
